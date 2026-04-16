@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duxcastino Gaming Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand-wrap">
+        <div class="brand-logo">D</div>
+        <div>
+          <p class="brand-label">Duxcastino</p>
+          <span class="brand-tag">Ipj's Gaming</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#featured">Games</a>
+        <a href="#library">Library</a>
+        <a href="#ratings">Ratings</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-media">
+        <img src="header banner.png" alt="Duxcastino hero banner">
+        <div class="hero-overlay">
+          <p class="eyebrow">Level Up Your Play</p>
+          <h2>Welcome Package</h2>
+          <div class="hero-offer">
+            <strong>£500</strong>
+            <span>+ 150 free spins</span>
+          </div>
+          <div class="hero-actions">
+            <a href="#featured" class="btn btn-primary">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="featured-games">
+      <div class="section-heading">
+        <h2>Featured Games</h2>
+      </div>
+      <div class="game-grid">
+        <article class="game-card">
+          <img src="WhatsApp Image 2026-04-15 at 16.06.53.jpeg" alt="Dux Arena gameplay">
+          <div class="game-card-body">
+            <span class="tag">Action RPG</span>
+            <h3>Dux Arena</h3>
+            <p>Fast-paced combat and ranked arenas keep the pressure high and the victories legendary.</p>
+            <div class="game-rating">
+              <img src="Rating score-5.png" alt="5 rating">
+              <span>4.9</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img src="WhatsApp Image 2026-04-15 at 18.17.48.jpeg" alt="Strategy campaign screenshot">
+          <div class="game-card-body">
+            <span class="tag">Tactical</span>
+            <h3>Circuit Siege</h3>
+            <p>Plan your attacks, deploy your forces, and conquer every objective with precision strategy.</p>
+            <div class="game-rating">
+              <img src="Rating score-4.png" alt="4 rating">
+              <span>4.6</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img src="WhatsApp Image 2026-04-15 at 18.17.49.jpeg" alt="Racing track visuals">
+          <div class="game-card-body">
+            <span class="tag">Racing</span>
+            <h3>Turbo Dux</h3>
+            <p>Burn rubber in blistering speed runs and challenge friends with leaderboard-ready moments.</p>
+            <div class="game-rating">
+              <img src="Rating score-3.png" alt="3 rating">
+              <span>4.3</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="popular" class="popular-games">
+      <div class="section-heading">
+        <p class="eyebrow">Popular Games</p>
+        <div class="section-heading-row">
+          <h2>Popular Games</h2>
+          <div class="heading-tabs">
+            <span class="heading-tab active">Featured Titles</span>
+            <span class="heading-tab">Popular Picks</span>
+          </div>
+        </div>
+      </div>
+      <div class="popular-grid">
+        <article class="game-card">
+          <img src="WhatsApp Image 2026-04-15 at 18.17.50.jpeg" alt="Popular shooter game">
+          <div class="game-card-body">
+            <span class="tag">Shooter</span>
+            <h3>Shadow Dux</h3>
+            <p>Join the hottest battle royale with fast loot and ranked competitive action.</p>
+            <div class="game-rating">
+              <img src="Rating score-5.png" alt="5 rating">
+              <span>4.8</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img src="WhatsApp Image 2026-04-15 at 18.17.50 (1).jpeg" alt="Popular adventure game">
+          <div class="game-card-body">
+            <span class="tag">Adventure</span>
+            <h3>Neon Quest</h3>
+            <p>Explore neon cities and complete high-stakes missions for bonus rewards.</p>
+            <div class="game-rating">
+              <img src="Rating score-4.png" alt="4 rating">
+              <span>4.7</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img src="WhatsApp Image 2026-04-15 at 18.17.49.jpeg" alt="Popular racing game">
+          <div class="game-card-body">
+            <span class="tag">Racing</span>
+            <h3>Turbo Dux</h3>
+            <p>Race through neon tracks and chase leaderboard glory with every lap.</p>
+            <div class="game-rating">
+              <img src="Rating score-3.png" alt="3 rating">
+              <span>4.4</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="library" class="library-section">
+      <div class="section-heading">
+        <p class="eyebrow">Game Library</p>
+        <h2>Filter the library and follow the leader</h2>
+      </div>
+      <div class="library-panel">
+        <div class="library-controls">
+          <div class="filter-pill active">All</div>
+          <div class="filter-pill">Action</div>
+          <div class="filter-pill">Strategy</div>
+          <div class="filter-pill">Racing</div>
+          <div class="filter-pill">Top Rated</div>
+        </div>
+
+        <div class="library-inner">
+          <div class="leaderboard-card">
+            <p class="eyebrow">Leaderboard</p>
+            <h3>Weekly Top Player</h3>
+            <p>Ranked Duxmaster: Kairo14 leads with a 98% win rate and the highest score streak this week.</p>
+            <div class="leader-stats">
+              <div>
+                <strong>98%</strong>
+                <span>Win rate</span>
+              </div>
+              <div>
+                <strong>58</strong>
+                <span>Matches</span>
+              </div>
+              <div>
+                <strong>12</strong>
+                <span>Win streak</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="library-grid">
+            <article class="library-card">
+              <div class="library-card-head">
+                <span class="tag">Action RPG</span>
+                <span class="leader-rank">#1</span>
+              </div>
+              <h3>Dux Arena</h3>
+              <p>Top-ranked arena battles with elite matchmaking and reward chests.</p>
+              <div class="score-pill">
+                <img src="Rating score-5.png" alt="Score 5">
+                <span>4.9</span>
+              </div>
+            </article>
+            <article class="library-card">
+              <div class="library-card-head">
+                <span class="tag">Strategy</span>
+                <span class="leader-rank">#2</span>
+              </div>
+              <h3>Circuit Siege</h3>
+              <p>High-level tactics and leader board challenges for competitive commanders.</p>
+              <div class="score-pill">
+                <img src="Rating score-4.png" alt="Score 4">
+                <span>4.6</span>
+              </div>
+            </article>
+            <article class="library-card">
+              <div class="library-card-head">
+                <span class="tag">Racing</span>
+                <span class="leader-rank">#3</span>
+              </div>
+              <h3>Turbo Dux</h3>
+              <p>Speed-running rivalries and leaderboard pushes keep the hours intense.</p>
+              <div class="score-pill">
+                <img src="Rating score-3.png" alt="Score 3">
+                <span>4.3</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ratings" class="rating-panel">
+      <div class="section-heading">
+        <p class="eyebrow">Rating Score</p>
+        <h2>How Scores Power Your Game</h2>
+      </div>
+      <div class="rating-grid">
+        <div class="rating-item">
+          <img src="Rating score.png" alt="Overall rating">
+          <h3>Platform Score</h3>
+          <p>See overall game performance and community sentiment in one clear rating.</p>
+        </div>
+        <div class="rating-item">
+          <img src="Rating score-1.png" alt="Score 1">
+          <h3>Starter Mode</h3>
+          <p>Perfect for beginners and warmups, with easy challenges and a friendly introduction.</p>
+        </div>
+        <div class="rating-item">
+          <img src="Rating score-2.png" alt="Score 2">
+          <h3>Power Rank</h3>
+          <p>Unlock advanced content and earn bonus rewards with higher score tiers.</p>
+        </div>
+        <div class="rating-item">
+          <img src="Rating score-4.png" alt="Score 4">
+          <h3>Elite Tiers</h3>
+          <p>Join the top league of players whose skills and strategy define the meta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-platform">
+      <div class="about-copy">
+        <p class="eyebrow">About Duxcastino</p>
+        <h2>Built for competitive gamers and livestream fans</h2>
+        <p>Duxcastino brings curated tournaments, game reviews, and community scoreboards together in a modern hub designed for fast discovery and polished presentation.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <strong>120+</strong>
+          <span>Games curated</span>
+        </div>
+        <div class="stat-card">
+          <strong>95%</strong>
+          <span>Player satisfaction</span>
+        </div>
+        <div class="stat-card">
+          <strong>24/7</strong>
+          <span>Live matches</span>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <p>© 2026 Duxcastino. Play smart, rate fast, win together.</p>
+    </footer>
+  </div>
+</body>
+</html>
